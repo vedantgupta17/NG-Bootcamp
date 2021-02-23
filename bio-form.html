@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio-Form</title>
+</head>
+<body style="text-align: center;">
+
+    <h1>My Bio-Form</h1>
+
+    <form action="#" method="GET" >
+
+        <fieldset style="text-align: left;">
+        <legend>Personal Info</legend>
+        <label for="First name">First Name &colon;</label>
+        <input type="text" id="First name" placeholder="First name" name="First name" required>
+        
+        <label for="Last name">Last Name &colon;</label>
+        <input type="text" id="Last name" placeholder="Last name" name="Last name" required>
+        <br><br>
+        
+        <label for="male">Male &colon;</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">Female &colon;</label>
+        <input type="radio" name="gender" id="female">
+        <label for="others">Others &colon;</label>
+        <input type="radio" name="gender" id="others">
+        <br><br>
+
+        <label for="date">Date Of Birth &colon;</label>
+        <input type="date" required >
+        <br><br>
+
+        <label for="email">Email &colon;</label>
+        <input type="email" placeholder="Your email ID" id="email" required>
+        <br><br>
+
+        <label for="phone">Phone &colon;</label>
+        <input type="phone" id="phone" maxlength="10" placeholder="+91" required>
+        <br><br>
+
+        <label for="height">Height &colon;</label>
+        <input type="height" id="height" maxlength="3" placeholder="Height in cm" required>
+        </fieldset>
+    <br>
+        <fieldset style="text-align: left;">
+            <legend>Educational</legend>
+            <label for="School name">School Name &colon;</label>
+            <input type="text" id="School name" placeholder="School name" name="School   name" required>
+            <br><br>
+
+            <label for="Class name">Class Name &colon;</label>
+            <input type="text" id="Class name" placeholder="Class name" name="Class name" required>
+            <br><br>
+            <label for="Stream">Stream &colon;</label>
+            <select name="Stream" id="Stream" required>
+                <option >-Stream-</option>
+                <option >Science</option>
+                <option >Commerce</option>
+                <option >Humanities</option>
+            </select>
+            <br><br>
+
+            <label for="marksheet">Marksheet</label>
+            <input type="file" id="marksheet">
+        </fieldset>
+        <br>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>

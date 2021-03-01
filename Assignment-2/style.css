@@ -1,0 +1,20 @@
+
+dt {
+  text-align: center;
+  background: #9eb8cc;
+  border: 1px solid #000000;
+  color: #FFF;
+  font: bold 20px/45px Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 2px 0 0 12px;
+  position: sticky;
+  top: -1px;
+}
+
+dd {
+  font: bold 20px/45px Helvetica, Arial, sans-serif;
+  margin: auto;
+  padding: 0 0 0 20px;
+}
+a{padding: 0 0 0 200px;
+}

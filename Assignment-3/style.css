@@ -1,0 +1,37 @@
+html,body{
+  background-image: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=770&q=80);
+  height: 100%;
+  margin: 0;
+}
+div
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+  button {
+  background-color: black;
+  color: #FFBA0A;
+    font-size: 3rem;
+    text-align: center;
+    transition: 0.5s;
+    border: 5px solid #FFBA0A;
+    box-shadow: 0px 0px 5px #FFBA0A;
+    text-shadow: 0px 0px 3px #FFBA0A;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    color: #23BE6E;
+    font-size: 3rem;
+    border: 5px solid #23BE6E;
+    box-shadow: 0px 5px  15px #23BE6E;
+    text-shadow: 0px 0px 3px #23BE6E;
+    
+
+  }
+  

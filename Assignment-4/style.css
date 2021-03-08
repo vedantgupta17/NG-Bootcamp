@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  nav {
+    position: fixed;
+    overflow: hidden;
+    width: 100vw;
+    max-width: 1440px;
+    height: 80px;
+    background:  rgb(50, 50, 50);
+  
+    padding: 0 1.5em;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav > .logo {
+    color: #fff;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    color: #fff;
+  }
+  
+  .cover {
+    padding-top: 100px;
+    height: 100vh;
+    max-height: 900px;
+    background: url('https://images.unsplash.com/photo-1613757668032-6b43200f7dcb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cover :hover{
+
+    background: url('https://images.unsplash.com/photo-1607096719500-3456c5769f45?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+    
+}
+  
+  .Cards {
+    width: 100%;
+    padding: 3em 1em;
+  }
+  
+  .Cards > h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+  }
+  
+  .Cards__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    padding: 1em 0.25em;
+  }
+  
+  .Cards__container::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  .Card {
+    min-height: 300px;
+    min-width: 200px;
+  
+    max-width: 250px;
+    padding: 0.75em;
+  
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border: 2px solid #9DB8BE;
+    border-radius: 0.5em;
+  
+    display: grid;
+    grid-template-areas:
+      'img img'
+      'hd hd'
+      'co co'
+      'of pr';
+    gap: 0.75em;
+  }
+  
+  .Card .image {
+    grid-area: img;
+    width: 100%;
+  }
+  
+  .Card .heading {
+    grid-area: hd;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.125;
+  }
+  
+  
+  .Card .price {
+    grid-area: pr;
+    font-size: 1rem;
+    color: #5A7E87;
+    font-weight: bold;
+  
+    place-self: center;
+    text-align: center;
+  }
+  
+  footer {
+    padding: 1em;
+    background: rgb(50, 50, 50);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .left {
+    color: #fff;
+    flex: 1;
+  }
+  
+  footer .right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .right ul a {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    color: #fff;
+  }
+  
